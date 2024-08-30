@@ -1,0 +1,20 @@
+{
+  "name": "initial",
+  "version": "1.0.0",
+  "description": "basics to deploy ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "initial"
+  ],
+  "author": "anshul",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
