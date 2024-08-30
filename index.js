@@ -10,6 +10,9 @@ app.get('/home',(req, res)=>{
 app.get('/start',(req, res)=>{
     res.send('<h1>header tag</h1>')
 })
+app.get('/null',(req, res)=>{
+    res.send("null response");
+})
 app.listen(process.env.PORT, ()=>{
     console.log(`port is starting at ${port}`);
 })
