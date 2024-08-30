@@ -45,9 +45,7 @@ app.get('/home',(req, res)=>{
 app.get('/start',(req, res)=>{
     res.send('<h1>header tag</h1>')
 })
-app.get('/null',(req, res)=>{
-    res.send("null response");
-})
+
 app.get('/github', (req, res)=>{
     res.json(githubData);
 })
